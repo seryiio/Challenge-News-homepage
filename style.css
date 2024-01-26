@@ -43,7 +43,7 @@ body {
 }
 
 #container__header--sidebar {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: start;
     align-items: end;
@@ -232,6 +232,10 @@ body {
 
     .container__header--navegationResponsive {
         display: block;
+    }
+
+    #container__header--sidebar {
+        display: flex;
     }
 
     .container__row1 {
